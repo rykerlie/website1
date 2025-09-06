@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Aura V1 - Marketing Website
+
+The proactive AI partner that executes your intent across every application.
+
+## Overview
+
+This is the marketing website for Aura V1, built with Next.js and designed with "Kinetic Minimalism" - a clean, futuristic aesthetic that conveys the intelligent, proactive nature of the Aura AI agent.
+
+## Features
+
+- **Responsive Design**: Pixel-perfect on desktop, tablet, and mobile
+- **Functional Waitlist**: Integrated with Loops for email capture
+- **Modern Animation**: Framer Motion for smooth, engaging interactions
+- **Dark Theme**: Sophisticated color palette optimized for focus
+- **Performance Optimized**: Built with Next.js for speed and SEO
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies and run the development server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the website.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: Next.js 14 with App Router
+- **Styling**: Tailwind CSS with custom design system
+- **Animations**: Framer Motion
+- **Email**: Loops integration for waitlist
+- **Deployment**: Vercel
 
-## Learn More
+## Design System
 
-To learn more about Next.js, take a look at the following resources:
+- **Colors**: Dark theme with purple (#7D5FFF) accents
+- **Typography**: Inter font family with structured hierarchy
+- **Spacing**: 8pt grid system for consistency
+- **Layout**: 12-column grid, max-width 1200px
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Environment Variables
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Create a `.env.local` file:
 
-## Deploy on Vercel
+```
+LOOPS_API_KEY=your_loops_api_key
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Sections
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Hero**: Provocative headline with waitlist form
+2. **Social Proof**: Institution and technology logos
+3. **Core Capabilities**: 2x2 feature grid with hover effects
+4. **Golden Thread**: 3-step process showcase
+5. **Feature Breakdown**: Detailed feature explanations
+6. **About**: Founder info and final CTA
