@@ -1,0 +1,90 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Aura Design System - Kinetic Minimalism */
+  --bg-primary: #0D0D10;
+  --bg-secondary: #1A1A1F;
+  --accent-primary: #FFFFFF;
+  --accent-secondary: #A0A0B0;
+  --cta-vibrant: #7D5FFF;
+  --border-color: #2C2C34;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--accent-primary);
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+/* Typography System */
+.h1 {
+  font-size: 72px;
+  font-weight: 700;
+  color: var(--accent-primary);
+  line-height: 1.1;
+}
+
+.h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--accent-primary);
+  line-height: 1.2;
+}
+
+.h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--accent-primary);
+  line-height: 1.3;
+}
+
+.body-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--accent-secondary);
+  line-height: 1.6;
+}
+
+.button-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--accent-primary);
+}
+
+/* Responsive typography */
+@media (max-width: 768px) {
+  .h1 {
+    font-size: 48px;
+  }
+  
+  .h2 {
+    font-size: 36px;
+  }
+  
+  .h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .h1 {
+    font-size: 36px;
+  }
+  
+  .h2 {
+    font-size: 28px;
+  }
+  
+  .h3 {
+    font-size: 18px;
+  }
+}
